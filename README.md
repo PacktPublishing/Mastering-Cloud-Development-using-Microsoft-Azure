@@ -14,3 +14,8 @@ Chapter 1, does not have any code as it talks about the setting up of the Cloud 
 While rest of the Chapters have blocks and blocks of code.
 
 I am sure you'll have fun Mastering your Cloud! 
+
+Related Cloud Development Books and Videos
+
+* [Learning Microsoft Azure] (https://www.packtpub.com/networking-and-servers/learning-microsoft-azure?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781782173373)
+* [Building Clouds with Windows Azure Pack] (https://www.packtpub.com/virtualization-and-cloud/building-clouds-windows-azure-pack?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781785882470)
