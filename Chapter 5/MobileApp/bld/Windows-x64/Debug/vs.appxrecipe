@@ -1,0 +1,1375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MARCOPARENZAN03</Machine>
+    <WindowsUser>Marco</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>com.innova.sqlsat495</PackageIdentityName>
+    <IntermediateOutputPath>D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>A7B282A7C38B9C695FA3B4CBF6CF2BB9150C48C84D05F6C0D5A8EBB87A0E67AB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.innova.sqlsat495_1.0.495.0_x64__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.innova.sqlsat495_h35559jr9hy9m!com.innova.sqlsat495</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.innova.sqlsat495</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.495.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\build\windows\debug\x64\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-05T06:09:29.155</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-05T06:09:27.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-05T06:09:27.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-05T06:09:27.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-05T06:09:27.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2016-03-05T05:57:41.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-05T06:09:27.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2016-03-05T05:57:41.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-05T06:09:27.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-05T06:09:27.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\images\1nn0va 2015.png">
+      <PackagePath>www\images\1nn0va 2015.png</PackagePath>
+      <Modified>2016-03-05T06:09:26.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\images\1nn0va 256.png">
+      <PackagePath>www\images\1nn0va 256.png</PackagePath>
+      <Modified>2016-03-05T06:09:26.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\images\sqlsat495_256.png">
+      <PackagePath>www\images\sqlsat495_256.png</PackagePath>
+      <Modified>2016-03-05T06:09:26.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\js\bootstrap.js">
+      <PackagePath>www\lib\bootstrap\dist\js\bootstrap.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\js\bootstrap.min.js">
+      <PackagePath>www\lib\bootstrap\dist\js\bootstrap.min.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\js\npm.js">
+      <PackagePath>www\lib\bootstrap\dist\js\npm.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\Gruntfile.js">
+      <PackagePath>www\lib\bootstrap\Gruntfile.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\grunt\bs-commonjs-generator.js">
+      <PackagePath>www\lib\bootstrap\grunt\bs-commonjs-generator.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\grunt\bs-glyphicons-data-generator.js">
+      <PackagePath>www\lib\bootstrap\grunt\bs-glyphicons-data-generator.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\grunt\bs-lessdoc-parser.js">
+      <PackagePath>www\lib\bootstrap\grunt\bs-lessdoc-parser.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\grunt\bs-raw-files-generator.js">
+      <PackagePath>www\lib\bootstrap\grunt\bs-raw-files-generator.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\affix.js">
+      <PackagePath>www\lib\bootstrap\js\affix.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\alert.js">
+      <PackagePath>www\lib\bootstrap\js\alert.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\button.js">
+      <PackagePath>www\lib\bootstrap\js\button.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\carousel.js">
+      <PackagePath>www\lib\bootstrap\js\carousel.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\collapse.js">
+      <PackagePath>www\lib\bootstrap\js\collapse.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\dropdown.js">
+      <PackagePath>www\lib\bootstrap\js\dropdown.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\modal.js">
+      <PackagePath>www\lib\bootstrap\js\modal.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\popover.js">
+      <PackagePath>www\lib\bootstrap\js\popover.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\scrollspy.js">
+      <PackagePath>www\lib\bootstrap\js\scrollspy.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\tab.js">
+      <PackagePath>www\lib\bootstrap\js\tab.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\tooltip.js">
+      <PackagePath>www\lib\bootstrap\js\tooltip.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\transition.js">
+      <PackagePath>www\lib\bootstrap\js\transition.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\package.js">
+      <PackagePath>www\lib\bootstrap\package.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery.easing\js\jquery.easing.compatibility.js">
+      <PackagePath>www\lib\jquery.easing\js\jquery.easing.compatibility.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery.easing\js\jquery.easing.js">
+      <PackagePath>www\lib\jquery.easing\js\jquery.easing.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery.easing\js\jquery.easing.min.js">
+      <PackagePath>www\lib\jquery.easing\js\jquery.easing.min.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\dist\jquery.js">
+      <PackagePath>www\lib\jquery\dist\jquery.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\dist\jquery.min.js">
+      <PackagePath>www\lib\jquery\dist\jquery.min.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\dist\jquery.slim.js">
+      <PackagePath>www\lib\jquery\dist\jquery.slim.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\dist\jquery.slim.min.js">
+      <PackagePath>www\lib\jquery\dist\jquery.slim.min.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\ajax.js">
+      <PackagePath>www\lib\jquery\src\ajax.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\ajax\jsonp.js">
+      <PackagePath>www\lib\jquery\src\ajax\jsonp.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\ajax\load.js">
+      <PackagePath>www\lib\jquery\src\ajax\load.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\ajax\parseJSON.js">
+      <PackagePath>www\lib\jquery\src\ajax\parseJSON.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\ajax\parseXML.js">
+      <PackagePath>www\lib\jquery\src\ajax\parseXML.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\ajax\script.js">
+      <PackagePath>www\lib\jquery\src\ajax\script.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\ajax\var\location.js">
+      <PackagePath>www\lib\jquery\src\ajax\var\location.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\ajax\var\nonce.js">
+      <PackagePath>www\lib\jquery\src\ajax\var\nonce.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\ajax\var\rquery.js">
+      <PackagePath>www\lib\jquery\src\ajax\var\rquery.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\ajax\xhr.js">
+      <PackagePath>www\lib\jquery\src\ajax\xhr.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\attributes.js">
+      <PackagePath>www\lib\jquery\src\attributes.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\attributes\attr.js">
+      <PackagePath>www\lib\jquery\src\attributes\attr.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\attributes\classes.js">
+      <PackagePath>www\lib\jquery\src\attributes\classes.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\attributes\prop.js">
+      <PackagePath>www\lib\jquery\src\attributes\prop.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\attributes\support.js">
+      <PackagePath>www\lib\jquery\src\attributes\support.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\attributes\val.js">
+      <PackagePath>www\lib\jquery\src\attributes\val.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\callbacks.js">
+      <PackagePath>www\lib\jquery\src\callbacks.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\core.js">
+      <PackagePath>www\lib\jquery\src\core.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\core\access.js">
+      <PackagePath>www\lib\jquery\src\core\access.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\core\DOMEval.js">
+      <PackagePath>www\lib\jquery\src\core\DOMEval.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\core\init.js">
+      <PackagePath>www\lib\jquery\src\core\init.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\core\parseHTML.js">
+      <PackagePath>www\lib\jquery\src\core\parseHTML.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\core\ready.js">
+      <PackagePath>www\lib\jquery\src\core\ready.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\core\support.js">
+      <PackagePath>www\lib\jquery\src\core\support.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\core\var\rsingleTag.js">
+      <PackagePath>www\lib\jquery\src\core\var\rsingleTag.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css.js">
+      <PackagePath>www\lib\jquery\src\css.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\addGetHookIf.js">
+      <PackagePath>www\lib\jquery\src\css\addGetHookIf.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\adjustCSS.js">
+      <PackagePath>www\lib\jquery\src\css\adjustCSS.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\curCSS.js">
+      <PackagePath>www\lib\jquery\src\css\curCSS.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\defaultDisplay.js">
+      <PackagePath>www\lib\jquery\src\css\defaultDisplay.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\hiddenVisibleSelectors.js">
+      <PackagePath>www\lib\jquery\src\css\hiddenVisibleSelectors.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\showHide.js">
+      <PackagePath>www\lib\jquery\src\css\showHide.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\support.js">
+      <PackagePath>www\lib\jquery\src\css\support.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\var\cssExpand.js">
+      <PackagePath>www\lib\jquery\src\css\var\cssExpand.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\var\getStyles.js">
+      <PackagePath>www\lib\jquery\src\css\var\getStyles.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\var\isHidden.js">
+      <PackagePath>www\lib\jquery\src\css\var\isHidden.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\var\rmargin.js">
+      <PackagePath>www\lib\jquery\src\css\var\rmargin.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\var\rnumnonpx.js">
+      <PackagePath>www\lib\jquery\src\css\var\rnumnonpx.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\css\var\swap.js">
+      <PackagePath>www\lib\jquery\src\css\var\swap.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\data.js">
+      <PackagePath>www\lib\jquery\src\data.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\data\accepts.js">
+      <PackagePath>www\lib\jquery\src\data\accepts.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\data\Data.js">
+      <PackagePath>www\lib\jquery\src\data\Data.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\data\support.js">
+      <PackagePath>www\lib\jquery\src\data\support.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\data\var\acceptData.js">
+      <PackagePath>www\lib\jquery\src\data\var\acceptData.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\data\var\dataPriv.js">
+      <PackagePath>www\lib\jquery\src\data\var\dataPriv.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\data\var\dataUser.js">
+      <PackagePath>www\lib\jquery\src\data\var\dataUser.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\deferred.js">
+      <PackagePath>www\lib\jquery\src\deferred.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\deferred\exceptionHook.js">
+      <PackagePath>www\lib\jquery\src\deferred\exceptionHook.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\deprecated.js">
+      <PackagePath>www\lib\jquery\src\deprecated.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\dimensions.js">
+      <PackagePath>www\lib\jquery\src\dimensions.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\effects.js">
+      <PackagePath>www\lib\jquery\src\effects.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\effects\animatedSelector.js">
+      <PackagePath>www\lib\jquery\src\effects\animatedSelector.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\effects\support.js">
+      <PackagePath>www\lib\jquery\src\effects\support.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\effects\Tween.js">
+      <PackagePath>www\lib\jquery\src\effects\Tween.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\event.js">
+      <PackagePath>www\lib\jquery\src\event.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\event\ajax.js">
+      <PackagePath>www\lib\jquery\src\event\ajax.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\event\alias.js">
+      <PackagePath>www\lib\jquery\src\event\alias.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\event\focusin.js">
+      <PackagePath>www\lib\jquery\src\event\focusin.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\event\support.js">
+      <PackagePath>www\lib\jquery\src\event\support.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\event\trigger.js">
+      <PackagePath>www\lib\jquery\src\event\trigger.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\exports\amd.js">
+      <PackagePath>www\lib\jquery\src\exports\amd.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\exports\global.js">
+      <PackagePath>www\lib\jquery\src\exports\global.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\intro.js">
+      <PackagePath>www\lib\jquery\src\intro.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\jquery.js">
+      <PackagePath>www\lib\jquery\src\jquery.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation.js">
+      <PackagePath>www\lib\jquery\src\manipulation.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\buildFragment.js">
+      <PackagePath>www\lib\jquery\src\manipulation\buildFragment.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\createSafeFragment.js">
+      <PackagePath>www\lib\jquery\src\manipulation\createSafeFragment.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\getAll.js">
+      <PackagePath>www\lib\jquery\src\manipulation\getAll.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\setGlobalEval.js">
+      <PackagePath>www\lib\jquery\src\manipulation\setGlobalEval.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\support.js">
+      <PackagePath>www\lib\jquery\src\manipulation\support.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\var\nodeNames.js">
+      <PackagePath>www\lib\jquery\src\manipulation\var\nodeNames.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\var\rcheckableType.js">
+      <PackagePath>www\lib\jquery\src\manipulation\var\rcheckableType.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\var\rleadingWhitespace.js">
+      <PackagePath>www\lib\jquery\src\manipulation\var\rleadingWhitespace.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\var\rscriptType.js">
+      <PackagePath>www\lib\jquery\src\manipulation\var\rscriptType.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\var\rtagName.js">
+      <PackagePath>www\lib\jquery\src\manipulation\var\rtagName.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\wrapMap.js">
+      <PackagePath>www\lib\jquery\src\manipulation\wrapMap.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\manipulation\_evalUrl.js">
+      <PackagePath>www\lib\jquery\src\manipulation\_evalUrl.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\offset.js">
+      <PackagePath>www\lib\jquery\src\offset.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\outro.js">
+      <PackagePath>www\lib\jquery\src\outro.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\queue.js">
+      <PackagePath>www\lib\jquery\src\queue.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\queue\delay.js">
+      <PackagePath>www\lib\jquery\src\queue\delay.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\selector-native.js">
+      <PackagePath>www\lib\jquery\src\selector-native.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\selector-sizzle.js">
+      <PackagePath>www\lib\jquery\src\selector-sizzle.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\selector.js">
+      <PackagePath>www\lib\jquery\src\selector.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\serialize.js">
+      <PackagePath>www\lib\jquery\src\serialize.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\support.js">
+      <PackagePath>www\lib\jquery\src\support.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\traversing.js">
+      <PackagePath>www\lib\jquery\src\traversing.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\traversing\findFilter.js">
+      <PackagePath>www\lib\jquery\src\traversing\findFilter.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\traversing\var\dir.js">
+      <PackagePath>www\lib\jquery\src\traversing\var\dir.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\traversing\var\rneedsContext.js">
+      <PackagePath>www\lib\jquery\src\traversing\var\rneedsContext.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\traversing\var\siblings.js">
+      <PackagePath>www\lib\jquery\src\traversing\var\siblings.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\arr.js">
+      <PackagePath>www\lib\jquery\src\var\arr.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\class2type.js">
+      <PackagePath>www\lib\jquery\src\var\class2type.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\concat.js">
+      <PackagePath>www\lib\jquery\src\var\concat.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\deletedIds.js">
+      <PackagePath>www\lib\jquery\src\var\deletedIds.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\document.js">
+      <PackagePath>www\lib\jquery\src\var\document.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\documentElement.js">
+      <PackagePath>www\lib\jquery\src\var\documentElement.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\hasOwn.js">
+      <PackagePath>www\lib\jquery\src\var\hasOwn.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\indexOf.js">
+      <PackagePath>www\lib\jquery\src\var\indexOf.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\pnum.js">
+      <PackagePath>www\lib\jquery\src\var\pnum.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\push.js">
+      <PackagePath>www\lib\jquery\src\var\push.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\rcssNum.js">
+      <PackagePath>www\lib\jquery\src\var\rcssNum.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\rnotwhite.js">
+      <PackagePath>www\lib\jquery\src\var\rnotwhite.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\slice.js">
+      <PackagePath>www\lib\jquery\src\var\slice.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\support.js">
+      <PackagePath>www\lib\jquery\src\var\support.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\var\toString.js">
+      <PackagePath>www\lib\jquery\src\var\toString.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\wrap.js">
+      <PackagePath>www\lib\jquery\src\wrap.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\plugins\cordova-plugin-camera\src\windows\CameraProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\src\windows\CameraProxy.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\plugins\cordova-plugin-camera\www\Camera.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\Camera.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\plugins\cordova-plugin-camera\www\CameraConstants.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraConstants.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\plugins\cordova-plugin-camera\www\CameraPopoverHandle.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraPopoverHandle.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\plugins\cordova-plugin-camera\www\CameraPopoverOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraPopoverOptions.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\plugins\cordova-plugin-dialogs\www\notification.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\www\notification.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Web.Ext.js">
+      <PackagePath>www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Web.Ext.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Web.js">
+      <PackagePath>www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Web.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\scripts\Application.js">
+      <PackagePath>www\scripts\Application.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\scripts\classie.js">
+      <PackagePath>www\scripts\classie.js</PackagePath>
+      <Modified>2016-03-05T06:09:26.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\scripts\codrops.js">
+      <PackagePath>www\scripts\codrops.js</PackagePath>
+      <Modified>2016-03-05T06:09:26.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\scripts\custom.js">
+      <PackagePath>www\scripts\custom.js</PackagePath>
+      <Modified>2016-03-05T06:09:26.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\scripts\Index.js">
+      <PackagePath>www\scripts\Index.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\scripts\Score.js">
+      <PackagePath>www\scripts\Score.js</PackagePath>
+      <Modified>2016-03-05T06:09:28.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2016-03-05T06:09:27.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\css\inappbrowser.css">
+      <PackagePath>www\css\inappbrowser.css</PackagePath>
+      <Modified>2016-03-05T06:09:27.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2016-03-05T06:09:26.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\css\bootstrap-theme.css">
+      <PackagePath>www\lib\bootstrap\dist\css\bootstrap-theme.css</PackagePath>
+      <Modified>2016-03-05T06:09:27.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\css\bootstrap-theme.min.css">
+      <PackagePath>www\lib\bootstrap\dist\css\bootstrap-theme.min.css</PackagePath>
+      <Modified>2016-03-05T06:09:27.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\css\bootstrap.css">
+      <PackagePath>www\lib\bootstrap\dist\css\bootstrap.css</PackagePath>
+      <Modified>2016-03-05T06:09:27.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\css\bootstrap.min.css">
+      <PackagePath>www\lib\bootstrap\dist\css\bootstrap.min.css</PackagePath>
+      <Modified>2016-03-05T06:09:27.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\css\font-awesome.css">
+      <PackagePath>www\lib\font-awesome\css\font-awesome.css</PackagePath>
+      <Modified>2016-03-05T06:09:27.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\css\font-awesome.min.css">
+      <PackagePath>www\lib\font-awesome\css\font-awesome.min.css</PackagePath>
+      <Modified>2016-03-05T06:09:27.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\images\sqlsat495_print.jpg">
+      <PackagePath>www\images\sqlsat495_print.jpg</PackagePath>
+      <Modified>2016-03-05T06:09:26.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2016-03-05T06:09:26.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\score.html">
+      <PackagePath>www\score.html</PackagePath>
+      <Modified>2016-03-05T06:09:26.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\.bower.json">
+      <PackagePath>www\lib\bootstrap\.bower.json</PackagePath>
+      <Modified>2016-03-05T06:09:26.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\bower.json">
+      <PackagePath>www\lib\bootstrap\bower.json</PackagePath>
+      <Modified>2016-03-05T06:09:27.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\grunt\configBridge.json">
+      <PackagePath>www\lib\bootstrap\grunt\configBridge.json</PackagePath>
+      <Modified>2016-03-05T06:09:27.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\.csscomb.json">
+      <PackagePath>www\lib\bootstrap\less\.csscomb.json</PackagePath>
+      <Modified>2016-03-05T06:09:26.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\package.json">
+      <PackagePath>www\lib\bootstrap\package.json</PackagePath>
+      <Modified>2016-03-05T06:09:27.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\.bower.json">
+      <PackagePath>www\lib\font-awesome\.bower.json</PackagePath>
+      <Modified>2016-03-05T06:09:26.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\bower.json">
+      <PackagePath>www\lib\font-awesome\bower.json</PackagePath>
+      <Modified>2016-03-05T06:09:27.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery.easing\.bower.json">
+      <PackagePath>www\lib\jquery.easing\.bower.json</PackagePath>
+      <Modified>2016-03-05T06:09:26.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery.easing\bower.json">
+      <PackagePath>www\lib\jquery.easing\bower.json</PackagePath>
+      <Modified>2016-03-05T06:09:28.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\.bower.json">
+      <PackagePath>www\lib\jquery\.bower.json</PackagePath>
+      <Modified>2016-03-05T06:09:26.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\bower.json">
+      <PackagePath>www\lib\jquery\bower.json</PackagePath>
+      <Modified>2016-03-05T06:09:27.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\css\bootstrap-theme.css.map">
+      <PackagePath>www\lib\bootstrap\dist\css\bootstrap-theme.css.map</PackagePath>
+      <Modified>2016-03-05T06:09:26.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\css\bootstrap.css.map">
+      <PackagePath>www\lib\bootstrap\dist\css\bootstrap.css.map</PackagePath>
+      <Modified>2016-03-05T06:09:26.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\css\font-awesome.css.map">
+      <PackagePath>www\lib\font-awesome\css\font-awesome.css.map</PackagePath>
+      <Modified>2016-03-05T06:09:26.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\dist\jquery.min.map">
+      <PackagePath>www\lib\jquery\dist\jquery.min.map</PackagePath>
+      <Modified>2016-03-05T06:09:26.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\dist\jquery.slim.min.map">
+      <PackagePath>www\lib\jquery\dist\jquery.slim.min.map</PackagePath>
+      <Modified>2016-03-05T06:09:26.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\scripts\Application.js.map">
+      <PackagePath>www\scripts\Application.js.map</PackagePath>
+      <Modified>2016-03-05T06:09:26.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\scripts\Index.js.map">
+      <PackagePath>www\scripts\Index.js.map</PackagePath>
+      <Modified>2016-03-05T06:09:26.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\scripts\Score.js.map">
+      <PackagePath>www\scripts\Score.js.map</PackagePath>
+      <Modified>2016-03-05T06:09:27.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>www\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot</PackagePath>
+      <Modified>2016-03-05T06:09:26.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>www\lib\bootstrap\fonts\glyphicons-halflings-regular.eot</PackagePath>
+      <Modified>2016-03-05T06:09:26.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\fonts\fontawesome-webfont.eot">
+      <PackagePath>www\lib\font-awesome\fonts\fontawesome-webfont.eot</PackagePath>
+      <Modified>2016-03-05T06:09:26.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>www\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg</PackagePath>
+      <Modified>2016-03-05T06:09:26.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>www\lib\bootstrap\fonts\glyphicons-halflings-regular.svg</PackagePath>
+      <Modified>2016-03-05T06:09:26.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\fonts\fontawesome-webfont.svg">
+      <PackagePath>www\lib\font-awesome\fonts\fontawesome-webfont.svg</PackagePath>
+      <Modified>2016-03-05T06:09:26.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>www\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+      <Modified>2016-03-05T06:09:26.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>www\lib\bootstrap\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+      <Modified>2016-03-05T06:09:26.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\lib\font-awesome\fonts\fontawesome-webfont.ttf</PackagePath>
+      <Modified>2016-03-05T06:09:26.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>www\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff</PackagePath>
+      <Modified>2016-03-05T06:09:26.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>www\lib\bootstrap\fonts\glyphicons-halflings-regular.woff</PackagePath>
+      <Modified>2016-03-05T06:09:26.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\lib\font-awesome\fonts\fontawesome-webfont.woff</PackagePath>
+      <Modified>2016-03-05T06:09:26.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>www\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2</PackagePath>
+      <Modified>2016-03-05T06:09:26.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>www\lib\bootstrap\fonts\glyphicons-halflings-regular.woff2</PackagePath>
+      <Modified>2016-03-05T06:09:26.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\fonts\fontawesome-webfont.woff2">
+      <PackagePath>www\lib\font-awesome\fonts\fontawesome-webfont.woff2</PackagePath>
+      <Modified>2016-03-05T06:09:26.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\grunt\.jshintrc">
+      <PackagePath>www\lib\bootstrap\grunt\.jshintrc</PackagePath>
+      <Modified>2016-03-05T06:09:26.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\.jshintrc">
+      <PackagePath>www\lib\bootstrap\js\.jshintrc</PackagePath>
+      <Modified>2016-03-05T06:09:26.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\src\.jshintrc">
+      <PackagePath>www\lib\jquery\src\.jshintrc</PackagePath>
+      <Modified>2016-03-05T06:09:26.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\grunt\sauce_browsers.yml">
+      <PackagePath>www\lib\bootstrap\grunt\sauce_browsers.yml</PackagePath>
+      <Modified>2016-03-05T06:09:26.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\js\.jscsrc">
+      <PackagePath>www\lib\bootstrap\js\.jscsrc</PackagePath>
+      <Modified>2016-03-05T06:09:26.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\.csslintrc">
+      <PackagePath>www\lib\bootstrap\less\.csslintrc</PackagePath>
+      <Modified>2016-03-05T06:09:26.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\alerts.less">
+      <PackagePath>www\lib\bootstrap\less\alerts.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\badges.less">
+      <PackagePath>www\lib\bootstrap\less\badges.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\bootstrap.less">
+      <PackagePath>www\lib\bootstrap\less\bootstrap.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\breadcrumbs.less">
+      <PackagePath>www\lib\bootstrap\less\breadcrumbs.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\button-groups.less">
+      <PackagePath>www\lib\bootstrap\less\button-groups.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\buttons.less">
+      <PackagePath>www\lib\bootstrap\less\buttons.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\carousel.less">
+      <PackagePath>www\lib\bootstrap\less\carousel.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\close.less">
+      <PackagePath>www\lib\bootstrap\less\close.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\code.less">
+      <PackagePath>www\lib\bootstrap\less\code.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\component-animations.less">
+      <PackagePath>www\lib\bootstrap\less\component-animations.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\dropdowns.less">
+      <PackagePath>www\lib\bootstrap\less\dropdowns.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\forms.less">
+      <PackagePath>www\lib\bootstrap\less\forms.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\glyphicons.less">
+      <PackagePath>www\lib\bootstrap\less\glyphicons.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\grid.less">
+      <PackagePath>www\lib\bootstrap\less\grid.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\input-groups.less">
+      <PackagePath>www\lib\bootstrap\less\input-groups.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\jumbotron.less">
+      <PackagePath>www\lib\bootstrap\less\jumbotron.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\labels.less">
+      <PackagePath>www\lib\bootstrap\less\labels.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\list-group.less">
+      <PackagePath>www\lib\bootstrap\less\list-group.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\media.less">
+      <PackagePath>www\lib\bootstrap\less\media.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins.less">
+      <PackagePath>www\lib\bootstrap\less\mixins.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\alerts.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\alerts.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\background-variant.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\background-variant.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\border-radius.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\border-radius.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\buttons.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\buttons.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\center-block.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\center-block.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\clearfix.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\clearfix.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\forms.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\forms.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\gradients.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\gradients.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\grid-framework.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\grid-framework.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\grid.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\grid.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\hide-text.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\hide-text.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\image.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\image.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\labels.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\labels.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\list-group.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\list-group.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\nav-divider.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\nav-divider.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\nav-vertical-align.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\nav-vertical-align.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\opacity.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\opacity.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\pagination.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\pagination.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\panels.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\panels.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\progress-bar.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\progress-bar.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\reset-filter.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\reset-filter.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\reset-text.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\reset-text.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\resize.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\resize.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\responsive-visibility.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\responsive-visibility.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\size.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\size.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\tab-focus.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\tab-focus.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\table-row.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\table-row.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\text-emphasis.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\text-emphasis.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\text-overflow.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\text-overflow.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\mixins\vendor-prefixes.less">
+      <PackagePath>www\lib\bootstrap\less\mixins\vendor-prefixes.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\modals.less">
+      <PackagePath>www\lib\bootstrap\less\modals.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\navbar.less">
+      <PackagePath>www\lib\bootstrap\less\navbar.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\navs.less">
+      <PackagePath>www\lib\bootstrap\less\navs.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\normalize.less">
+      <PackagePath>www\lib\bootstrap\less\normalize.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\pager.less">
+      <PackagePath>www\lib\bootstrap\less\pager.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\pagination.less">
+      <PackagePath>www\lib\bootstrap\less\pagination.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\panels.less">
+      <PackagePath>www\lib\bootstrap\less\panels.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\popovers.less">
+      <PackagePath>www\lib\bootstrap\less\popovers.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\print.less">
+      <PackagePath>www\lib\bootstrap\less\print.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\progress-bars.less">
+      <PackagePath>www\lib\bootstrap\less\progress-bars.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\responsive-embed.less">
+      <PackagePath>www\lib\bootstrap\less\responsive-embed.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\responsive-utilities.less">
+      <PackagePath>www\lib\bootstrap\less\responsive-utilities.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\scaffolding.less">
+      <PackagePath>www\lib\bootstrap\less\scaffolding.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\tables.less">
+      <PackagePath>www\lib\bootstrap\less\tables.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\theme.less">
+      <PackagePath>www\lib\bootstrap\less\theme.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\thumbnails.less">
+      <PackagePath>www\lib\bootstrap\less\thumbnails.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\tooltip.less">
+      <PackagePath>www\lib\bootstrap\less\tooltip.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\type.less">
+      <PackagePath>www\lib\bootstrap\less\type.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\utilities.less">
+      <PackagePath>www\lib\bootstrap\less\utilities.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\variables.less">
+      <PackagePath>www\lib\bootstrap\less\variables.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\less\wells.less">
+      <PackagePath>www\lib\bootstrap\less\wells.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\animated.less">
+      <PackagePath>www\lib\font-awesome\less\animated.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\bordered-pulled.less">
+      <PackagePath>www\lib\font-awesome\less\bordered-pulled.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\core.less">
+      <PackagePath>www\lib\font-awesome\less\core.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\fixed-width.less">
+      <PackagePath>www\lib\font-awesome\less\fixed-width.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\font-awesome.less">
+      <PackagePath>www\lib\font-awesome\less\font-awesome.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\icons.less">
+      <PackagePath>www\lib\font-awesome\less\icons.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\larger.less">
+      <PackagePath>www\lib\font-awesome\less\larger.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\list.less">
+      <PackagePath>www\lib\font-awesome\less\list.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\mixins.less">
+      <PackagePath>www\lib\font-awesome\less\mixins.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\path.less">
+      <PackagePath>www\lib\font-awesome\less\path.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\rotated-flipped.less">
+      <PackagePath>www\lib\font-awesome\less\rotated-flipped.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\stacked.less">
+      <PackagePath>www\lib\font-awesome\less\stacked.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\less\variables.less">
+      <PackagePath>www\lib\font-awesome\less\variables.less</PackagePath>
+      <Modified>2016-03-05T06:09:26.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\LICENSE">
+      <PackagePath>www\lib\bootstrap\LICENSE</PackagePath>
+      <Modified>2016-03-05T06:09:26.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery.easing\LICENSE">
+      <PackagePath>www\lib\jquery.easing\LICENSE</PackagePath>
+      <Modified>2016-03-05T06:09:26.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\bootstrap\README.md">
+      <PackagePath>www\lib\bootstrap\README.md</PackagePath>
+      <Modified>2016-03-05T06:09:26.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery.easing\README.md">
+      <PackagePath>www\lib\jquery.easing\README.md</PackagePath>
+      <Modified>2016-03-05T06:09:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\README.md">
+      <PackagePath>www\lib\jquery\README.md</PackagePath>
+      <Modified>2016-03-05T06:09:26.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\.gitignore">
+      <PackagePath>www\lib\font-awesome\.gitignore</PackagePath>
+      <Modified>2016-03-05T06:09:26.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\.npmignore">
+      <PackagePath>www\lib\font-awesome\.npmignore</PackagePath>
+      <Modified>2016-03-05T06:09:26.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\fonts\FontAwesome.otf">
+      <PackagePath>www\lib\font-awesome\fonts\FontAwesome.otf</PackagePath>
+      <Modified>2016-03-05T06:09:26.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\HELP-US-OUT.txt">
+      <PackagePath>www\lib\font-awesome\HELP-US-OUT.txt</PackagePath>
+      <Modified>2016-03-05T06:09:26.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\AUTHORS.txt">
+      <PackagePath>www\lib\jquery\AUTHORS.txt</PackagePath>
+      <Modified>2016-03-05T06:09:26.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\jquery\LICENSE.txt">
+      <PackagePath>www\lib\jquery\LICENSE.txt</PackagePath>
+      <Modified>2016-03-05T06:09:26.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\font-awesome.scss">
+      <PackagePath>www\lib\font-awesome\scss\font-awesome.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_animated.scss">
+      <PackagePath>www\lib\font-awesome\scss\_animated.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_bordered-pulled.scss">
+      <PackagePath>www\lib\font-awesome\scss\_bordered-pulled.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_core.scss">
+      <PackagePath>www\lib\font-awesome\scss\_core.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_fixed-width.scss">
+      <PackagePath>www\lib\font-awesome\scss\_fixed-width.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_icons.scss">
+      <PackagePath>www\lib\font-awesome\scss\_icons.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_larger.scss">
+      <PackagePath>www\lib\font-awesome\scss\_larger.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_list.scss">
+      <PackagePath>www\lib\font-awesome\scss\_list.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_mixins.scss">
+      <PackagePath>www\lib\font-awesome\scss\_mixins.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_path.scss">
+      <PackagePath>www\lib\font-awesome\scss\_path.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_rotated-flipped.scss">
+      <PackagePath>www\lib\font-awesome\scss\_rotated-flipped.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_stacked.scss">
+      <PackagePath>www\lib\font-awesome\scss\_stacked.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\www\lib\font-awesome\scss\_variables.scss">
+      <PackagePath>www\lib\font-awesome\scss\_variables.scss</PackagePath>
+      <Modified>2016-03-05T06:09:26.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2016-03-05T06:09:26.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2015\Projects\SqlSat495\MobileApp\platforms\windows\build\windows\debug\x64\win8.1\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-03-05T06:09:28.970</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

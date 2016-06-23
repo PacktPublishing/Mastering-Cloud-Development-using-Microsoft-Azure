@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NetworkConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/ServiceHosting/2011/07/NetworkConfiguration">
+ <VirtualNetworkConfiguration> 
+  <LocalNetworkSites>
+      <LocalNetworkSite name="CloudMakersARM">
+        <AddressSpace>
+          <AddressPrefix>192.168.0.0/16</AddressPrefix>
+        </AddressSpace>
+        <VPNGatewayAddress>65.52.224.49</VPNGatewayAddress>
+      </LocalNetworkSite>
+    </LocalNetworkSites>
+  <VirtualNetworkSites>
+      <VirtualNetworkSite name="Group CloudMakers CloudMakersClassic" Location="North Europe">
+          <AddressSpace>
+            <AddressPrefix>10.1.0.0/16</AddressPrefix>
+          </AddressSpace>
+          <Subnets>
+            <Subnet name="DataServer">
+              <AddressPrefix>10.1.2.0/24</AddressPrefix>
+            </Subnet>
+            <Subnet name="GatewaySubnet">
+              <AddressPrefix>10.1.1.0/24</AddressPrefix>
+            </Subnet>
+          </Subnets>
+          <Gateway>
+            <VPNClientAddressPool>
+              <AddressPrefix>10.0.0.0/24</AddressPrefix>
+            </VPNClientAddressPool>
+            <ConnectionsToLocalNetwork />
+          </Gateway>
+        </VirtualNetworkSite>
+      </VirtualNetworkSites>
+    </VirtualNetworkConfiguration>
+</NetworkConfiguration>

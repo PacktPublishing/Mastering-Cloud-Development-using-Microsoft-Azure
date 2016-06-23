@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CM.Geo.Api", "CM.Geo.Api\CM.Geo.Api.csproj", "{2D59367C-4DFD-4DC5-9DBA-9E56750EC22D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CM.Geo.BL", "CM.Geo.BL\CM.Geo.BL.csproj", "{5E745B83-104B-4156-969D-D01285740AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CM.Geo.Api.ServiceStack", "CM.Geo.Api.ServiceStack\CM.Geo.Api.ServiceStack.csproj", "{B11E170C-F15C-427A-8949-E93FE5664030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CM.Geo.SB", "CM.Geo.SB\CM.Geo.SB.csproj", "{98886380-1D2B-408C-AB9E-40C6F45D8225}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D59367C-4DFD-4DC5-9DBA-9E56750EC22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D59367C-4DFD-4DC5-9DBA-9E56750EC22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D59367C-4DFD-4DC5-9DBA-9E56750EC22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D59367C-4DFD-4DC5-9DBA-9E56750EC22D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E745B83-104B-4156-969D-D01285740AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E745B83-104B-4156-969D-D01285740AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E745B83-104B-4156-969D-D01285740AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E745B83-104B-4156-969D-D01285740AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11E170C-F15C-427A-8949-E93FE5664030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11E170C-F15C-427A-8949-E93FE5664030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11E170C-F15C-427A-8949-E93FE5664030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11E170C-F15C-427A-8949-E93FE5664030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98886380-1D2B-408C-AB9E-40C6F45D8225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98886380-1D2B-408C-AB9E-40C6F45D8225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98886380-1D2B-408C-AB9E-40C6F45D8225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98886380-1D2B-408C-AB9E-40C6F45D8225}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ocdstudio.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CM.Geo.Api\\CM.Geo.Api.csproj
+		SccProjectName1 = CM.Geo.Api
+		SccLocalPath1 = CM.Geo.Api
+		SccProjectUniqueName2 = CM.Geo.BL\\CM.Geo.BL.csproj
+		SccProjectName2 = CM.Geo.BL
+		SccLocalPath2 = CM.Geo.BL
+		SccProjectUniqueName3 = CM.Geo.Api.ServiceStack\\CM.Geo.Api.ServiceStack.csproj
+		SccProjectName3 = CM.Geo.Api.ServiceStack
+		SccLocalPath3 = CM.Geo.Api.ServiceStack
+		SccProjectUniqueName4 = CM.Geo.SB\\CM.Geo.SB.csproj
+		SccProjectName4 = CM.Geo.SB
+		SccLocalPath4 = CM.Geo.SB
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+[
+    { "ResultId": 0, "Result": "Success" }
+    ,{ "ResultId": 1, "Result": "LockedOut" }
+    ,{ "ResultId": 2, "Result": "RequireVerification" }
+    ,{ "ResultId": 3, "Result": "Failure" }
+]

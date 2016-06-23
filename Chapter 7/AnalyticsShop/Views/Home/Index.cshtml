@@ -1,0 +1,160 @@
+﻿
+<div class="container">
+    <div class="row">
+        <div class="col-lg-7" id="content">
+        </div>
+        <div class="col-lg-5">
+            <h4>Basket</h4>
+            <table id="basket" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            @*<h4>Suggestions</h4>
+            <table id="suggestions" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <h4>Notifications</h4>
+            <table id="notifications" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>*@
+        </div>
+    </div>
+</div>
+
+@section scripts {
+
+    <script src="~/Scripts/jquery.signalR-2.2.0.js"></script>
+    <script src="~/signalr/hubs"></script>
+
+    <script type="text/javascript">
+
+        // receive feedback
+        $.connection.notificationHub.client.handle_feedback = function (feedback) {
+            switch (feedback.Type) {
+                case "Suggestion", 1:
+                    Suggestion(feedback.LocalTime, feedback.Message)
+                    break;
+                case "Notification", 0:
+                    Notification(feedback.LocalTime, feedback.Message)
+                    break;
+                default:
+                    // signal not handled
+                    break;
+            }
+        };
+
+        $.connection.notificationHub.client.handle_event = function (event) {
+            switch (event.Type) {
+                case "ProductAddedToBasket", 0:
+                    ProductAddedToBasket(event.ProductId, event.ItemsInBasket, event.TotalPrice)
+                    break;
+                default:
+                    // signal not handled
+                    break;
+            }
+        };
+    
+        function Notification(a, b) {
+            var localTime = (new Date(a)).toLocaleString();
+            var area = $("#notifications > tbody");
+            area.prepend("<tr><td>" + localTime + "</td><td>" + b + "</td></tr>")
+        }
+
+        var lastSuggestionTime = undefined;
+
+        function Suggestion(a, b) {
+            if (a != lastSuggestionTime) {
+                var area = $("#suggestions > tbody").html("");
+                lastSuggestionTime = a;
+            }
+            var localTime = (new Date(a)).toLocaleString();
+            var area = $("#suggestions > tbody");
+            area.prepend("<tr><td>" + a + "</td><td>" + b + "</td></tr>")
+        }
+
+        // start hub
+        $.connection.hub.start().done(function () {
+            // register with my userId that comes from Server inside the view
+            $.connection.notificationHub.server.RegisterUser('@ViewBag.UserId');
+        });
+
+        ViewItems();
+
+        function ViewItems() {
+            $.getJSON("/api/Products", function (result) {
+                // initialize content  area
+                //$("#content").html("<table class='table table-striped'><thead><tr><th></th><th></th><th></th></tr></thead><tbody></tbody></table>");
+                $("#content").html("<table class='table table-striped'><thead><tr><th></th><th style='width:150px;'></th></tr></thead><tbody></tbody></table>");
+                // get the tbody area
+                var tbody = $("#content").find("tbody");
+                $.each(result, function (i, item) {
+                    // var addBasketBtn = "<button class='btn btn-primary add basket' data-product-id='" + item.ProductModelID + "'>Add to Basket</button>";
+                    // tbody.append("<tr><td>" + item.Name + "</td><td>" + item.Summary + "</td><td>" + addBasketBtn + "</td></tr>");
+                    var viewItemBtn = "<button class='btn btn-primary view item' data-product-id='" + item.ProductModelID + "'>View Item</button>";
+                    tbody.append("<tr><td>" + item.Name + "</td><td>" + viewItemBtn + "</td></tr>");
+                });
+
+                // add handler to all .add.basket buttons
+                $("button.view.item").click(function (event) {
+                    ViewItem($(event.currentTarget).attr("data-product-id"));
+                });
+            });
+        }
+
+        function ViewItem(productId) {
+            $.ajax({
+                type: "GET",
+                url: "/api/Products/" + productId,
+            }).done(function (response) {
+
+                $("#content").html("<h1>" + response.Name + "</h1>");
+                $("#content").append("<div>" + response.RiderExperience + "</div>");
+                $("#content").append("<button class='btn btn-primary add basket' data-product-id='" + response.ProductModelID + "'>Add to Basket</button>");
+                $("#content").append("<br/>");
+                $("#content").append("<button class='btn btn view items'><< Back to all</button>");
+
+                $("button.add.basket").click(function (event) {
+                    AddToBasket($(event.currentTarget).attr("data-product-id"));
+                });
+
+                $("button.view.items").click(function (event) {
+                    ViewItems();
+                });
+
+            });
+        }
+
+        function AddToBasket(productId) {
+            $.ajax({
+                type: "POST",
+                url: "/api/commands/addtobasket",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                data: JSON.stringify({
+                    productId: productId,
+                    quantity: 1
+                })
+            }).done(function (msg) {
+                ViewItems();
+            });
+        }
+
+    </script>
+}

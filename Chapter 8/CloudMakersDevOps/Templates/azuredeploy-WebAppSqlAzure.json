@@ -1,0 +1,154 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "ProjectName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "FriendlyName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "WebAppSKU": {
+      "type": "string",
+      "allowedValues": [
+        "Free",
+        "Shared",
+        "Basic",
+        "Standard"
+      ],
+      "defaultValue": "Standard"
+    },
+    "administratorLogin": {
+      "type": "string"
+    },
+    "administratorLoginPassword": {
+      "type": "securestring"
+    }
+  },
+  "variables": {
+    "WebAppPlanName": "[concat(parameters('ProjectName'), 'FrontEndPlan')]",
+    "WebAppName": "[concat(parameters('ProjectName'), 'FrontEnd')]",
+    "Location": "[resourceGroup().location]"
+  },
+  "resources": [
+    {
+      "name": "[variables('WebAppPlanName')]",
+      "type": "Microsoft.Web/serverfarms",
+      "apiVersion": "2014-06-01",
+      "location": "[variables('Location')]",
+      "dependsOn": [ ],
+      "tags": {
+        "displayName": "[concat(parameters('FriendlyName'), 'FrontEnd Plan')]"
+      },
+      "properties": {
+        "sku": "[parameters('WebAppSku')]",
+        "workerSize": "Small",
+        "numberOfWorkers": 1
+      }
+    },
+    {
+      "name": "[variables('WebAppName')]",
+      "type": "Microsoft.Web/sites",
+      "apiVersion": "2015-08-01",
+      "location": "[variables('Location')]",
+      "dependsOn": [
+        "[concat('Microsoft.Web/serverfarms/', variables('WebAppPlanName'))]"
+      ],
+      "tags": {
+        "displayName": "[concat(parameters('FriendlyName'), 'FrontEnd')]"
+      },
+      "properties": {
+        "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('WebAppPlanName'))]",
+        "siteConfig": {
+          "connectionStrings": [
+            {
+              "name": "DefaultConnectionString",
+              "connectionString": "Server=tcp:WebAppsql.database.windows.net,1433;Database=WebAppDB;User ID=^Ru38ru4r9u4u$@WebAppDB;Password=^Ru38ru4r9u4u$;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+              "providerName": "System.Data.SqlClient",
+              "type": "SQLServer"
+            }
+          ]
+        }
+      },
+      "resources": [
+        {
+          "name": "Stage",
+          "type": "slots",
+          "apiVersion": "2015-08-01",
+          "location": "[variables('Location')]",
+          "dependsOn": [
+            "Microsoft.Web/sites/WebAppFrontEnd"
+          ],
+          "tags": {
+            "displayName": "WebApp FrontEnd (Stage)"
+          },
+          "resources": [
+            {
+              "name": "Web",
+              "type": "sourcecontrols",
+              "apiVersion": "2015-04-01",
+              "dependsOn": [
+                "Microsoft.Web/sites/WebAppFrontEnd/slots/Stage"
+              ],
+              "properties": {
+                "repoUrl": "https://github.com/marcoparenzan/WebApp",
+                "branch": "master"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WebAppsql",
+      "type": "Microsoft.Sql/servers",
+      "location": "[variables('Location')]",
+      "apiVersion": "2014-04-01-preview",
+      "dependsOn": [ ],
+      "tags": {
+        "displayName": "WebAppsql"
+      },
+      "properties": {
+        "administratorLogin": "[parameters('administratorLogin')]",
+        "administratorLoginPassword": "[parameters('administratorLoginPassword')]"
+      },
+      "resources": [
+        {
+          "name": "AllowAllWindowsAzureIps",
+          "type": "firewallrules",
+          "location": "[variables('Location')]",
+          "apiVersion": "2014-04-01-preview",
+          "dependsOn": [
+            "Microsoft.Sql/servers/WebAppsql"
+          ],
+          "properties": {
+            "startIpAddress": "0.0.0.0",
+            "endIpAddress": "0.0.0.0"
+          }
+        },
+        {
+          "name": "WebAppDB",
+          "type": "databases",
+          "location": "West Europe",
+          "apiVersion": "2014-04-01-preview",
+          "dependsOn": [
+            "WebAppsql"
+          ],
+          "tags": {
+            "displayName": "WebAppDB"
+          },
+          "properties": {
+            "collation": "SQL_Latin1_General_CP1_CI_AS",
+            "edition": "Standard",
+            "maxSizeBytes": "1073741824",
+            "requestedServiceObjectiveName": "S0"
+          }
+        }
+      ]
+    }
+  ],
+  "outputs": {
+  }
+}

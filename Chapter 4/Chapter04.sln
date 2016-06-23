@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderGenerator", "OrderGenerator\OrderGenerator.csproj", "{E252F456-5672-459E-8FC1-12D47E8958D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderReceiver", "OrderReceiver\OrderReceiver.csproj", "{C4CD5E41-2BFD-4811-887D-B6C62F086FFC}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "OrderWorker", "OrderWorker\OrderWorker.ccproj", "{054C4B73-2BBE-4625-B37A-AA0F96E6070C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultWorker", "DefaultWorker\DefaultWorker.csproj", "{F30730D4-C915-493C-81FA-A1A867108D41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAMVeryBad", "IAMVeryBad\IAMVeryBad.csproj", "{5DF7E3F4-01F9-4C52-8A85-770118AF4B29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E252F456-5672-459E-8FC1-12D47E8958D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E252F456-5672-459E-8FC1-12D47E8958D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E252F456-5672-459E-8FC1-12D47E8958D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E252F456-5672-459E-8FC1-12D47E8958D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CD5E41-2BFD-4811-887D-B6C62F086FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CD5E41-2BFD-4811-887D-B6C62F086FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CD5E41-2BFD-4811-887D-B6C62F086FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CD5E41-2BFD-4811-887D-B6C62F086FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054C4B73-2BBE-4625-B37A-AA0F96E6070C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054C4B73-2BBE-4625-B37A-AA0F96E6070C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054C4B73-2BBE-4625-B37A-AA0F96E6070C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054C4B73-2BBE-4625-B37A-AA0F96E6070C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30730D4-C915-493C-81FA-A1A867108D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30730D4-C915-493C-81FA-A1A867108D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30730D4-C915-493C-81FA-A1A867108D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30730D4-C915-493C-81FA-A1A867108D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF7E3F4-01F9-4C52-8A85-770118AF4B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF7E3F4-01F9-4C52-8A85-770118AF4B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF7E3F4-01F9-4C52-8A85-770118AF4B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF7E3F4-01F9-4C52-8A85-770118AF4B29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ocdstudio.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DefaultWorker\\DefaultWorker.csproj
+		SccProjectName1 = DefaultWorker
+		SccLocalPath1 = DefaultWorker
+		SccProjectUniqueName2 = IAMVeryBad\\IAMVeryBad.csproj
+		SccProjectName2 = IAMVeryBad
+		SccLocalPath2 = IAMVeryBad
+		SccProjectUniqueName3 = OrderGenerator\\OrderGenerator.csproj
+		SccProjectName3 = OrderGenerator
+		SccLocalPath3 = OrderGenerator
+		SccProjectUniqueName4 = OrderReceiver\\OrderReceiver.csproj
+		SccProjectName4 = OrderReceiver
+		SccLocalPath4 = OrderReceiver
+		SccProjectUniqueName5 = OrderWorker\\OrderWorker.ccproj
+		SccProjectName5 = OrderWorker
+		SccLocalPath5 = OrderWorker
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,117 @@
+﻿@model WebModel.ProductDetailDTO
+<div class="row">
+    <div class="col-md-12">
+        <h4>@Model.Name</h4>
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ProductNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ProductNumber)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Color)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Color)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.StandardCost)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.StandardCost)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ListPrice)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ListPrice)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Size)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Size)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Weight)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Weight)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.SellStartDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.SellStartDate)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.SellEndDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.SellEndDate)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DiscontinuedDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DiscontinuedDate)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.ModifiedDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ModifiedDate)
+            </dd>
+
+        </dl>
+    </div>
+    <div class="col-md-3">
+        @*       <img alt="@Model.ThumbnailPhotoFileName" src="@Url.Content("~/Products/Images/" + Model.id)" />*@
+        <img alt="@Model.ThumbnailPhotoFileName" src="https://cmadventureworks.blob.core.windows.net/webfrontendimages/@Model.ThumbnailPhotoFileName" />
+        @*     <img alt="@Model.ThumbnailPhotoFileName" src="https://adventureworksimages.azureedge.net/@Model.ThumbnailPhotoFileName" />*@
+        <form action="@Url.Action("AddToCart")">
+            <input type="hidden" name="ProductId" value="@Model.id" />
+            <label for="UnitPrice">Unit Price</label>
+            <label>@Model.ListPrice</label>
+            <input type="hidden" name="UnitPrice" value="@Model.ListPrice" />
+            <label for="Quantity">Quantity</label>
+            <input type="text" name="Quantity" value="1" />
+            <input type="submit" value="Add to cart" />
+        </form>
+    </div>
+    <div class="col-md-3">
+    </div>
+</div>
+@Html.ActionLink("Back to List", "Index")

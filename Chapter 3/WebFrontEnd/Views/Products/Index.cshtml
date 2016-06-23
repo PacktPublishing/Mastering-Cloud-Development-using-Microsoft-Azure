@@ -1,0 +1,78 @@
+﻿@model IEnumerable<WebModel.ProductIndexDTO>
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-9">
+        <form method="post">
+            <label for="text">What are you looking for?</label>
+            <input class="typeahead" type="text" name="text" id="text" placeholder="Search for product" />
+            <input type="submit" value="Search" />
+        </form>
+    </div>
+    </div>
+<div class="row">
+    <div class="col-md-3">
+        @*<div class="list-group">
+                @foreach (var category in ((IEnumerable<WebModel.ProductCategoryDTO>)ViewBag.categories))
+                {
+                    <a href="@Url.Action("Index", new { categoryId = category.Id })" class="list-group-item">@category.Name</a>
+                }
+            </div>*@
+    </div>
+    <div class="col-md-9">
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ProductNumber)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductNumber)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id = item.id })
+                        @*|
+                            @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.id })*@
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+@section scripts {
+    <script src="~/Scripts/typeahead.bundle.js"></script>
+    <script type="text/javascript">
+        $('.typeahead').typeahead({
+            hint: true,
+            highlight: true,
+            minLength: 3
+        },
+        {
+            name: 'products-dataset',
+            source: function (q, cb) {
+                $.ajax({
+                    type: "GET",
+                    url: "/Products/Suggest?text=" + q,
+                    async: false,
+                    success: function (data) {
+                        cb(data);
+                    }
+                });
+            }
+        });
+    </script>
+}

@@ -1,0 +1,7 @@
+C:\Code\OCDStudio\Book.MasteringCloudDevelopment\Chapter06\CM.Geo.BL\bin\Debug\CM.Geo.BL.dll
+C:\Code\OCDStudio\Book.MasteringCloudDevelopment\Chapter06\CM.Geo.BL\bin\Debug\CM.Geo.BL.pdb
+C:\Code\OCDStudio\Book.MasteringCloudDevelopment\Chapter06\CM.Geo.BL\bin\Debug\Newtonsoft.Json.dll
+C:\Code\OCDStudio\Book.MasteringCloudDevelopment\Chapter06\CM.Geo.BL\bin\Debug\Newtonsoft.Json.xml
+C:\Code\OCDStudio\Book.MasteringCloudDevelopment\Chapter06\CM.Geo.BL\obj\Debug\CM.Geo.BL.csprojResolveAssemblyReference.cache
+C:\Code\OCDStudio\Book.MasteringCloudDevelopment\Chapter06\CM.Geo.BL\obj\Debug\CM.Geo.BL.dll
+C:\Code\OCDStudio\Book.MasteringCloudDevelopment\Chapter06\CM.Geo.BL\obj\Debug\CM.Geo.BL.pdb

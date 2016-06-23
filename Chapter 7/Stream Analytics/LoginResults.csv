@@ -1,0 +1,5 @@
+ResultId;Result
+0;Success
+1;LockedOut
+2;RequireVerification
+3;Failure

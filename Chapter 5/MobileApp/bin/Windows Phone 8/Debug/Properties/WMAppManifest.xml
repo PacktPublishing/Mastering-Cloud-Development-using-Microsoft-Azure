@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment AppPlatformVersion="8.0" xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment">
+  <DefaultLanguage code="en-US" xmlns="" />
+  <Languages xmlns="">
+    <Language code="en-US" />
+  </Languages>
+  <App Author="Marco Parenzan" BitsPerPixel="32" Description="" Genre="apps.normal" ProductID="{7a623130-e298-11e5-8597-63009f94a264}" Publisher="Marco Parenzan" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}" RuntimeType="Silverlight" Title="Sql Saturday 495" Version="1.0.495" xmlns="">
+    <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_ISV_CAMERA" />
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TaskName="_default" TokenID="Sql Saturday 495Token">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Background.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
+          <Title>Sql Saturday 495</Title>
+          <BackContent />
+          <BackBackgroundImageURI />
+          <BackTitle />
+          <LargeBackgroundImageURI />
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI />
+          <DeviceLockImageURI />
+          <HasLarge>false</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
+<!-- WPSDK Version 8.0.9900 -->

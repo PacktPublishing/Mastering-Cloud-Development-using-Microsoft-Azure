@@ -1,0 +1,8 @@
+﻿[
+  {
+    "name": "Web App Sql Azure",
+    "description": "Create a Web App configured accessing a Sql Azure database",
+    "template": "azuredeploy-WebAppSqlAzure.json"
+  }
+]
+

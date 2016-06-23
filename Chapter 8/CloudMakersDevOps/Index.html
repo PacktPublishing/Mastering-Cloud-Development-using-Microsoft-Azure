@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Marco Parenzan">
+    <link rel="icon" href="favicon.ico">
+    <title>CloudMakers.xyz DevOps Templates</title>
+    <!--<link href="/Content/bootstrap.min.css" rel="stylesheet">-->
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CloudMakers.xyz DevOps Templates</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <table class="table table-striped templates">
+                    <thead>
+                        <tr>
+                            <th class="col-lg-2">Template</th>
+                            <th>Description</th>
+                            <th class="col-lg-1"></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Scripts/jquery-2.2.3.js"></script>"
+    <script src="/Scripts/bootstrap.js"></script>
+    <script type="text/javascript">
+
+        var azureDeployButtonImgUrl = "http://azuredeploy.net/deploybutton.png";
+        var azureDeployUrl = "https://portal.azure.com/#create/Microsoft.Template/uri/";
+
+        var urlBase = window.location.href;
+
+        $.getJSON("Templates/index.json", function (templates) {
+            $.each(templates, function (i, item) {
+                var templateUrl = urlBase + "Templates/" + item.template;
+                $("table.templates > tbody").append(
+                    "<tr>"
+                    + "<td>" + item.name + "</td>"
+                    + "<td>" + item.description + "</td>"
+                    + "<td><a href='"
+                    + azureDeployUrl + encodeURIComponent(templateUrl)
+                    + "'><img src='" + azureDeployButtonImgUrl + "'/></a></td>"
+                    + "</tr>");
+            });
+        });
+    </script>
+</body>
+</html>

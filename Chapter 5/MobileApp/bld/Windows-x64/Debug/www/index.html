@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src ‘self’ data: gap: https://ssl.gstatic.com ‘unsafe-eval’; style-src ‘self’ ‘unsafe-inline’; media-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval'  http://sqlsat495.azurewebsites.net">
+
+    <title>#SqlSat495</title>
+
+    <!-- MobileApp references -->
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="lib/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">#SQLSAT495</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#what-is-new">What's new</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#sessions">Sessions</a>
+                    </li>
+                    <!--<li class="page-scroll">
+                        <a href="#goodies">Goodies</a>
+                    </li>-->
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="images/sqlsat495_256.png" />
+                    <div class="intro-text">
+                        <span class="skills">Microsoft Sql Server 2016 and Data Platform Conference</span>
+                    </div>
+                    <div>
+                        <span>Saturday February 27th, 2016</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4>Benvenuto al #SqlSat495, Pordenone 2016</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    Per la terza volta il PASS SQL Saturday passa da Pordenone. Come l'anno scorso l'evento si terrà a febbraio (sabato 27) e sarà, come è consuetudine, completamente GRATUITO. Inutile dire che i contenuti sono tra i più vari. Tuttavia abbiamo cercato di tenere una forma piuttosto semplice di separazione delle tre track disponibili. La location è ancora il Consorzio Universitario di Pordenone (vedere sotto per maggiori dettagli) ed avremo tre aule completamente dedicate all'evento. Ma andiamo per gradi..
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="success" id="what-is-new">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>NOVITA' DI QUESTA EDIZIONE</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <div>
+                        Pre-conference il 26 febbraio su Power BI
+                    </div>
+                    <div>
+                        Video reportage dell'evento e album fotografico fatto da giovani professionisti/studenti/volontari
+                    </div>
+                    <div>
+                        Doppia possibilità di feedback (cartaceo + SpeakerScore dell'evento)
+                    </div>
+                    <div>
+                        Raffle alla fine della giornata con regali
+                    </div>
+                    <div>
+                        Sperimentazione della registrazione di tutte le sessioni (ci proviamo :))
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sessions">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Sessions</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <table class="table table-striped" id="sessions-table">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Speaker</th>
+                                <th>Time</th>
+                                <th>Room</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<section id="goodies" class="success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Goodies</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <ul class="list-group">
+                        <li type="button" class="list-group-item">
+                            ...
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- Footer -->
+    <footer class="text-center" id="contact">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Consorzio Universitario di Pordenone</h3>
+                        <p>Via Prasecco, 3/A - 33170 Pordenone</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="http://www.facebook.com/1nn0va" class="btn btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-social btn-outline hidden"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-social btn-outline hidden"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-social btn-outline hidden"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-social btn-outline hidden"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About 1nn0va</h3>
+                        <p>
+                            <a href="http://www.innovazionefvg.net/">
+                                <img src="images/1nn0va 256.png" />
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; 1nn0va 2007-2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- bower dependent lib code for HTML and Javascript lifetime content -->
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/jquery.easing/js/jquery.easing.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <!—- application page specific code -->
+    <script src="scripts/application.js"></script>
+    <script src="scripts/index.js"></script>
+
+    <!--custom layout template code-->
+    <script src="scripts/classie.js"></script>
+    <script src="scripts/codrops.js"></script>
+    <script src="scripts/custom.js"></script>
+</body>
+</html>
