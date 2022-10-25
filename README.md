@@ -19,3 +19,7 @@ Related Cloud Development Books and Videos
 
 * [Learning Microsoft Azure] (https://www.packtpub.com/networking-and-servers/learning-microsoft-azure?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781782173373)
 * [Building Clouds with Windows Azure Pack] (https://www.packtpub.com/virtualization-and-cloud/building-clouds-windows-azure-pack?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781785882470)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781782173335">https://packt.link/free-ebook/9781782173335 </a> </p>
